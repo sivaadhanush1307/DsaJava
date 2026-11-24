@@ -12,5 +12,6 @@ public class printNameNTimes {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         printName(1,n);
+        sc.close();
     }
 }
